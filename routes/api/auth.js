@@ -6,9 +6,9 @@ const { schemas } = require("../../models/user");
 const ctrl = require("../../controllers/auth");
 const router = express.Router();
 router.post(
-  "/register",
-  validateBody(schemas.registerSchema),
-  ctrlWrapper(ctrl.register)
+  "/singup",
+  validateBody(schemas.singupSchema),
+  ctrlWrapper(ctrl.singup)
 );
 router.post(
   "/login",

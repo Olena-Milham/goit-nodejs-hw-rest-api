@@ -1,10 +1,10 @@
-const register = require("./register");
+const singup = require("./singup");
 const login = require("./login");
 const getCurrent = require("./getCurrent");
 const logout = require("./logout");
 
 module.exports = {
-  register,
+  singup,
   login,
   getCurrent,
   logout,
